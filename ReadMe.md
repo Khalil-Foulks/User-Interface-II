@@ -54,7 +54,7 @@ The following goals are designed to stretch your knowledge and may require addit
 
 ## FAQs
 
-**What is a wireframe? How do I use one?**
+**What is a wireframe? How do I use one??**
 
 *Wireframes are used to outline webpage styles, content, and functionality. UX designers will often use wireframes to explain their ideas to web developers. These wireframes, hand drawn or mocked up on software, are a cheap and easy way to iterate over designs. In this assignment you will chose a wireframe like the one below and create the elements with HTML and CSS.*
 
