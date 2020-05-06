@@ -3,63 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Khalil Foulks' Website</title>
+    <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
     <!-- Header -->
     <header>
-        <h1>Khalil Foulks</h1>
-    
-        <!-- Navigation-->
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="projects.html">Projects</a>
-        </nav>
+        <div class = "top">
+            <h1>Khalil Foulks</h1>
+        
+            <!-- Navigation-->
+            <nav>
+                <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="projects.html">Projects</a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main picture + my name + my projects in center of page -->
+        <section class ="main">   
+            <div class="container">
+                <div class="text">
+                    <h2>Khalil Foulks</h2>
+                    <h3>My Projects</h3>
+                </div>
+                <img class = "mainImg" src = "https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80">
+            </div>
+        </section>
     </header>
-    <!-- Main picture + my name + my projects in center of page -->
-    <section>   
-        <h2>Khalil Foulks</h2>
-        <h3>My Projects</h3>
-    </section>
     <section>
     <!-- Picture and Name of project go here -->
-        <div class = "container">
+        <div class = "projects-container">
             <div>
-                Name of Project 1
+                <h4>Name of Project 1</h4>
                 <img src="https://i.picsum.photos/id/417/200/200.jpg" alt="">  
             </div>
             <div>
-                Name of Project 2  
+                <h4>Name of Project 2</h4>  
                 <img src="https://i.picsum.photos/id/417/200/200.jpg" alt="">  
             </div>
             <div>
-                Name of Project 3  
+                <h4>Name of Project 3</h4> 
                 <img src="https://i.picsum.photos/id/417/200/200.jpg" alt="">  
             </div>
             <div>
-                Name of Project 4  
+                <h4> Name of Project 4</h4>  
                 <img src="https://i.picsum.photos/id/417/200/200.jpg" alt="">  
             </div>
             <div>
-                Name of Project 5 
+                <h4>Name of Project 5</h4>
                 <img src="https://i.picsum.photos/id/417/200/200.jpg" alt="">   
             </div>
             <div>
-                Name of Project 6  
+                <h4>Name of Project 6</h4>  
                 <img src="https://i.picsum.photos/id/417/200/200.jpg" alt="">  
             </div>
         </div>
     </section>
-    <footer>    
+    <footer class = "bottom">    
         <!-- Footer -->
         <!-- make contact link to contact page; Add Linkedin -->
-        Contact Me
-        Like what you see? 
-    
-        <!-- Make this take you To the Top of the page  --> 
-        To the Top  
+        <div class = "contact">
+            <a class href="contact.html"> Contact Me </a> 
+        </div>
+        <div class="socials">
+            <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+         
     </footer>
 </body>
 </html>

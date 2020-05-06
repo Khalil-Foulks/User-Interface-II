@@ -1,1 +1,108 @@
 /* Add CSS styling here */
+
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid blue;
+  }
+  html{
+    font-size:62.5%;
+  }
+  body{
+    line-height:2;
+    font-size:1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  h1, h2, h3, h4{
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing:3px;
+    padding:4% 0;
+  }
+  section{
+    padding:4% 0;
+  }
+  i{
+    font-size:4rem;
+  }
+
+/* General Styles */
+body{
+    display:block;
+    margin:0 auto;
+    color: red;
+    padding:20px;
+}
+
+/* Header Styles */  
+
+h1{
+    margin:1%;
+    padding:5px;
+}
+
+.top{
+    display:flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav a{
+    padding: 10px 40px;
+    text-decoration: none;
+}
+/* About Section Styles */
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .container{
+    position: relative;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+}
+
+
+.projects-container{
+    display:flex;
+    flex-flow:row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Footer Styles  */
+
+.bottom{
+    display:flex;
+    flex-flow: row;
+    justify-content:space-between;
+}
+
+.bottom .contact{
+    display: flex;
+    justify-items: center;
+    text-decoration: none;
+}
+
+.socials{
+    display: flex;
+    justify-content: end;
+    align-content: space-between;
+}
