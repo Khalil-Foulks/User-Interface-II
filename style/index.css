@@ -13,7 +13,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,  
 menu, nav, output, ruby, section, summary,  
 time, mark, audio, video {  
-margin: 0 auto;  
+margin: 0;  
 padding: 0;  
 border: 0;  
 font-size: 100%;  
@@ -24,6 +24,7 @@ vertical-align: baseline;
 body{
      background-color: lightblue;
      font-family: 'Squada One', cursive;
+     margin: 0 auto;  
  }
 
 
@@ -75,10 +76,11 @@ a.button{
     justify-content: center;
     margin: 0 20px;
 }
-.mainImg{
 
-
+large-img{
+    width: 10%;
 }
+
 .text{
     display: flex;
     justify-content: center;
@@ -88,10 +90,15 @@ a.button{
     position: absolute;
     font-size: 50px;
     font-family: 'Squada One', cursive;
+    margin-bottom: 15%;
 }
 
 h3{
     margin:40px;
+}
+
+h4{
+    text-align: center;
 }
 
 
@@ -100,16 +107,21 @@ h3{
     flex-flow:row wrap;
     justify-content:space-around;
     align-items: center;
-    margin: 50px 0 0 0
+    margin: 5% 0 0 0
 }
-.project-name{
-    display:flex;
-    justify-content:space-around;
-    align-items: center;
+
+.projects-container .div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.projects-container .div img{
+    margin-right: 20%;
 }
 /* Footer Styles  */
 
-.bottom .button{
+.bottom .contact{
     display:flex;
     justify-content: center;
     padding: 5px;
@@ -119,5 +131,4 @@ h3{
     display:flex;
     justify-content: center;
     align-items: center;
-    border:1px solid red;
 }
