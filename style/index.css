@@ -21,17 +21,23 @@ font: inherit;
 vertical-align: baseline;  
 }
 
+body{
+     background-color: lightblue;
+     font-family: 'Squada One', cursive;
+ }
 
 
 /* Header Styles */  
 
 h1{
     padding:2px;
+    font-size: 30px;
 }
 
 .top{
     display:flex;
     justify-content: space-around;
+    margin:10px;
 }
 
 nav{
@@ -45,6 +51,22 @@ nav a{
     padding: 10px 40px;
     text-decoration: none;
 }
+
+a.button{
+    display:inline-block;
+    /* padding:0.35em 1.2em; */
+    padding:10px 20px;
+    border:1px solid #FFFFFF;
+    margin:0 10px 10px 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    }
+
 /* About Section Styles */
 
 .main{
@@ -53,8 +75,9 @@ nav a{
     justify-content: center;
     margin: 0 20px;
 }
-.main .container{
-    position: relative;
+.mainImg{
+
+
 }
 .text{
     display: flex;
@@ -63,6 +86,12 @@ nav a{
     align-items: center;
     align-content: center;
     position: absolute;
+    font-size: 50px;
+    font-family: 'Squada One', cursive;
+}
+
+h3{
+    margin:40px;
 }
 
 
@@ -71,26 +100,24 @@ nav a{
     flex-flow:row wrap;
     justify-content:space-around;
     align-items: center;
+    margin: 50px 0 0 0
 }
-.projects-container div img{
-    max-width: 300px;
+.project-name{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
 }
 /* Footer Styles  */
 
-.bottom{
+.bottom .button{
     display:flex;
-    flex-flow: row;
-    justify-content:space-between;
+    justify-content: center;
+    padding: 5px;
+    margin: 20px;
 }
-
-.bottom .contact{
-    display: flex;
-    justify-items: center;
-    text-decoration: none;
-}
-
 .socials{
-    display: flex;
-    justify-content: end;
-    align-content: space-between;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid red;
 }
