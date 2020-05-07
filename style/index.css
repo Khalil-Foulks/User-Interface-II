@@ -92,7 +92,11 @@ a.button:hover{
     position: absolute;
     font-size: 5rem;
     font-family: 'Squada One', cursive;
-    margin-bottom: 15%;
+}
+
+
+h2 h3{
+    margin-bottom: 15%; 
 }
 
 h3{
@@ -115,23 +119,53 @@ h4{
 }
 
 
-
 /* Footer Styles  */
 
-.bottom .contact{
+.contact{
     display:flex;
     justify-content: center;
     padding: .5rem;
     margin: 2rem;
     font-size: 2rem;
+    text-decoration: none;
+    color: whitesmoke;
 }
+
 .socials{
     display:flex;
     justify-content: center;
     align-items: center;
     font-size: 10rem;
+    text-decoration: none;
+    background-color: grey;
 
 }
+
+.socials a{
+    text-decoration:none ;
+    font-size: 5rem;
+    color: black;
+}
+
+
+/*Tablet View */
+@media(max-width: 800px){
+    
+    a.button{
+        padding:2rem 2rem;
+        margin:1rem 2rem 2rem 0;
+        border-radius:.3rem;
+    }
+    a.button:hover{
+        padding:.2rem .2rem;
+        margin:1rem 2rem 2rem 0;
+        border-radius:.3rem;
+    }
+    .text{
+        font-size: 4rem;
+    }
+}
+
 /*Tablet View */
 @media(max-width: 800px){
     
@@ -153,7 +187,7 @@ h4{
 /*phone view */
 @media(max-width: 500px){
     a.button{
-        padding:.1rem .1rem;
+        padding:.5rem .3rem;
         margin:2rem 2rem 2rem 0;
         border-radius:.3rem;
     }
@@ -164,5 +198,9 @@ h4{
     }
     .text{
         font-size: 3rem;
+    }
+
+    h1{
+        margin:2% 0 0 0;
     }
 }
