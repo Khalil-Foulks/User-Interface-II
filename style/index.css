@@ -1,1 +1,206 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+html{
+    font-size:62.5%; /* equal to 10px */
+}
+
+body{
+     background-color: #63A1EA;
+     font-family:'Roboto',sans-serif;
+     margin: 0 auto;  
+ }
+
+
+/* Header Styles */  
+
+h1{
+    padding:.5rem;
+    font-size: 2.5rem;
+    color: white;
+    font-family:'Roboto',sans-serif;
+}
+
+.links{
+    display:flex;
+    justify-content: flex-end;
+    margin:1rem;
+}
+
+
+
+
+a.button{
+    display:inline-block;
+    padding:2rem 4rem;
+    border:.1rem solid #FFFFFF;
+    margin:0 1.6rem 1.6rem 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 1.5rem;
+    color:#FFFFFF;
+    text-align:center;
+    }
+a.button:hover{
+  
+    padding:2rem 4rem;
+    border:.2rem solid gray;
+    margin:0 1rem 1rem 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 1.5rem;
+    color:#FFFFFF;
+    text-align:center;
+    }
+
+/* About Section Styles */
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    font-size: 5rem;
+    font-family: 'Squada One', cursive;
+}
+
+
+h2 h3{
+    margin-bottom: 15%; 
+}
+
+h3{
+    margin:4rem;
+}
+
+h4{
+    text-align: center;
+    margin: 0 0 5rem 0;
+    font-size:2.6rem;
+}
+
+
+.projects-container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    margin: 0 auto;
+    padding: 1% 0;
+}
+
+
+/* Footer Styles  */
+
+.contact{
+    display:flex;
+    justify-content: center;
+    padding: .5rem;
+    margin: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.socials{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    text-decoration: none;
+    background-color: grey;
+
+}
+
+.socials a{
+    text-decoration:none ;
+    font-size: 5rem;
+    color: black;
+}
+
+
+/*Tablet View */
+@media(max-width: 800px){
+    
+    a.button{
+        padding:2rem 2rem;
+        margin:1rem 2rem 2rem 0;
+        border-radius:.3rem;
+    }
+    a.button:hover{
+        padding:.2rem .2rem;
+        margin:1rem 2rem 2rem 0;
+        border-radius:.3rem;
+    }
+    .text{
+        font-size: 4rem;
+    }
+}
+
+/*Tablet View */
+@media(max-width: 800px){
+    
+    a.button{
+        padding:2rem 2rem;
+        margin:1rem 2rem 2rem 0;
+        border-radius:.3rem;
+    }
+    a.button:hover{
+        padding:.2rem .2rem;
+        margin:1rem 2rem 2rem 0;
+        border-radius:.3rem;
+    }
+    .text{
+        font-size: 4rem;
+    }
+}
+
+/*phone view */
+@media(max-width: 500px){
+    a.button{
+        padding:.5rem .3rem;
+        margin:2rem 2rem 2rem 0;
+        border-radius:.3rem;
+    }
+    a.button:hover{
+        padding:.1rem .1rem;
+        margin:2rem 2rem 2rem 0;
+        border-radius:.3rem;
+    }
+    .text{
+        font-size: 3rem;
+    }
+
+    h1{
+        margin:2% 0 0 0;
+    }
+}
